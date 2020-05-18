@@ -57,7 +57,7 @@ const SkuCard = ({ sku, stripePromise }) => {
         style={buttonStyles}
         onClick={event => redirectToCheckout(event, sku.id)}
       >
-        BUY ME
+        BUY NOW
       </button>
     </div>
   )

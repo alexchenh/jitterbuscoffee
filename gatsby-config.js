@@ -4,9 +4,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby E-Commerce Starter`,
+    title: `Jitter Bus Coffee`,
     description: `Accept payments in your Gatsby site using Stripe Checkout.`,
-    author: `@thorwebdev`,
+    author: `@alexchen2231`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,7 +15,7 @@ module.exports = {
       options: {
         objects: ['Sku'],
         secretKey: process.env.STRIPE_SECRET_KEY,
-        downloadFiles: false,
+        downloadFiles: true,
       },
     },
     {
